@@ -1,0 +1,6 @@
+/*
+ * Copyright (c) 2020/  12/ 26.  Created by Hashim Tahir
+ */
+
+include ':app'
+rootProject.name = "SimpleShortExamples"

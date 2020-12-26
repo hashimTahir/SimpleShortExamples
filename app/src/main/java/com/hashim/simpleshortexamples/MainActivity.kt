@@ -20,17 +20,19 @@ class MainActivity : AppCompatActivity() {
         hActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(hActivityMainBinding.root)
 
-        hRegisterForContextMenu()
+        hSetupListeners()
+
     }
 
-    private fun hRegisterForContextMenu() {
+    private fun hSetupListeners() {
+        registerForContextMenu(hActivityMainBinding.hOpenMenuB)
         hActivityMainBinding.hOpenMenuB.setOnClickListener {
-
+            openContextMenu(hActivityMainBinding.hOpenMenuB)
         }
     }
 
+
     override fun onCreateContextMenu(menu: ContextMenu?, v: View?, menuInfo: ContextMenu.ContextMenuInfo?) {
-        super.onCreateContextMenu(menu, v, menuInfo)
         menuInflater.inflate(R.menu.floating_menu, menu)
     }
 

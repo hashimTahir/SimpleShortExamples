@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2020/  12/ 26.  Created by Hashim Tahir
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hItem1"
+        android:title="Title 1" />
+
+    <item
+        android:id="@+id/hItem2"
+        android:title="Title 1" />
+
+    <item
+        android:id="@+id/hItem3"
+        android:title="Title 1" />
+    <item
+        android:id="@+id/hItem4"
+        android:title="Title 1" />
+</menu>

@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
         <activity
+            android:name=".cropimage.CropImageActivity"
+            android:theme="@style/Theme.SimpleShortExamples" />
+        <activity
             android:name=".kotlinflows.KotlinFlowsActivity"
             android:theme="@style/Theme.SimpleShortExamples" />
         <activity
@@ -23,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
     </application>
 
 </manifest>

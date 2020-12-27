@@ -7,6 +7,7 @@ package com.hashim.simpleshortexamples
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.hashim.simpleshortexamples.cropimage.CropImageActivity
 import com.hashim.simpleshortexamples.curvedbottombar.BottomBarActivity
 import com.hashim.simpleshortexamples.databinding.ActivityMainBinding
 import com.hashim.simpleshortexamples.kotlinflows.KotlinFlowsActivity
@@ -35,6 +36,15 @@ class MainActivity : AppCompatActivity() {
                 Intent(
                     this,
                     KotlinFlowsActivity::class.java
+                )
+            )
+        }
+
+        hActivityMainBinding.hCropIB.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    CropImageActivity::class.java
                 )
             )
         }

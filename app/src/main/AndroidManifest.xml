@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright (c) 2020/  12/ 26.  Created by Hashim Tahir
-  -->
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hashim.simpleshortexamples">
 
@@ -13,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
+        <activity
+            android:name=".curvedbottombar.BottomBarActivity"
+            android:theme="@style/Theme.SimpleShortExamples"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

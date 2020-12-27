@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2020/  12/ 27.  Created by Hashim Tahir
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hHomeMenuItem"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/hSearchMenuItem"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search" />
+    <item
+        android:id="@+id/hPlaceHolderMenuItem"
+        android:title="" />
+    <item
+        android:id="@+id/hProfileMenuItem"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="Profile" />
+    <item
+        android:id="@+id/hSettingMenuItem"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings" />
+</menu>

@@ -4,8 +4,10 @@
 
 package com.hashim.simpleshortexamples
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.hashim.simpleshortexamples.curvedbottombar.BottomBarActivity
 import com.hashim.simpleshortexamples.databinding.ActivityMainBinding
 
 
@@ -17,6 +19,15 @@ class MainActivity : AppCompatActivity() {
 
         hActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(hActivityMainBinding.root)
+
+        hActivityMainBinding.hCurvedBottomBarB.setOnClickListener {
+            startActivity(
+                    Intent(
+                            this,
+                            BottomBarActivity::class.java
+                    )
+            )
+        }
 
     }
 }

@@ -3,6 +3,7 @@
     package="com.hashim.simpleshortexamples">
 
     <application
+        android:name=".BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,8 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
         <activity
+            android:name=".kotlinflows.KotlinFlowsActivity"
+            android:theme="@style/Theme.SimpleShortExamples" />
+        <activity
             android:name=".curvedbottombar.BottomBarActivity"
-            android:theme="@style/Theme.SimpleShortExamples"/>
+            android:theme="@style/Theme.SimpleShortExamples" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

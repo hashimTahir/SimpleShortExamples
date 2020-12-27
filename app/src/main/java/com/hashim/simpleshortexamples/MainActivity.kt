@@ -9,6 +9,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.hashim.simpleshortexamples.curvedbottombar.BottomBarActivity
 import com.hashim.simpleshortexamples.databinding.ActivityMainBinding
+import com.hashim.simpleshortexamples.kotlinflows.KotlinFlowsActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -22,10 +23,19 @@ class MainActivity : AppCompatActivity() {
 
         hActivityMainBinding.hCurvedBottomBarB.setOnClickListener {
             startActivity(
-                    Intent(
-                            this,
-                            BottomBarActivity::class.java
-                    )
+                Intent(
+                    this,
+                    BottomBarActivity::class.java
+                )
+            )
+        }
+
+        hActivityMainBinding.hKotlinFlowsB.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    KotlinFlowsActivity::class.java
+                )
             )
         }
 

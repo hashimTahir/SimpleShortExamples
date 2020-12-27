@@ -13,12 +13,23 @@
         android:id="@+id/hCurvedBottomBarB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Curved bottom bar example"
         android:clickable="true"
+        android:focusable="true"
+        android:text="Curved bottom bar example"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:focusable="true" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hKotlinFlowsB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Kotlin Flow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hCurvedBottomBarB" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

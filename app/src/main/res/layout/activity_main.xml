@@ -30,8 +30,7 @@
         android:text="Kotlin Flow"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/hCurvedBottomBarB"
-         />
+        app:layout_constraintTop_toBottomOf="@id/hCurvedBottomBarB" />
 
 
     <Button
@@ -44,5 +43,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hKotlinFlowsB" />
+
+    <Button
+        android:id="@+id/hStateFlowB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="State Flow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hCropIB" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,7 @@ import com.hashim.simpleshortexamples.cropimage.CropImageActivity
 import com.hashim.simpleshortexamples.curvedbottombar.BottomBarActivity
 import com.hashim.simpleshortexamples.databinding.ActivityMainBinding
 import com.hashim.simpleshortexamples.kotlinflows.KotlinFlowsActivity
+import com.hashim.simpleshortexamples.stateflow.StateFlowActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -45,6 +46,15 @@ class MainActivity : AppCompatActivity() {
                 Intent(
                     this,
                     CropImageActivity::class.java
+                )
+            )
+        }
+
+        hActivityMainBinding.hStateFlowB.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    StateFlowActivity::class.java
                 )
             )
         }
